@@ -1,11 +1,3 @@
-# MyFirstEverGit
-|--------------------------------------------------|
-|                                                  |
-|                  Hi, I'm aw_aom.                 |
-|          You can find me on instragram.          |
-|                                                  |
-|--------------------------------------------------|
-**First step on github eiei**
 /* *********************************************************** */
 /*                                                             */
 /*     AAAAA    WW      WW    AAAAA      OOOOO    MM      MM   */
@@ -16,3 +8,30 @@
 /*   AA     AA    WW  WW    AA     AA    OOOOO    MM      MM   */
 /*                                                             */
 /* *********************************************************** */
+
+
+#include <unistd.h>
+
+void	ft_putchar(char c);
+
+int		main(void)
+{
+	ft_putchar('H');
+	ft_putchar('e');
+	ft_putchar('l');
+	ft_putchar('l');
+	ft_putchar('o');
+	ft_putchar(' ');
+	ft_putchar('W');
+	ft_putchar('o');
+	ft_putchar('r');
+	ft_putchar('l');
+	ft_putchar('d');
+	ft_putchar('!');
+	return (0);
+}
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
